@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2f0d8ac516.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="head">
+    <h1>ToDo List</h1>
+  </header>
+  <form class='form'>
+    <input type="text" id='text' placeholder="Add an item" minlength="1" maxlength="22"><button class="add-btn"
+      type="submit"><i class="fas fa-plus fa-3x icon"></i></button>
+    <select id="options">
+      <option value="all" class="all">All</option>
+      <option value="completed" class="completed">Completed</option>
+      <option value="uncompleted" class="uncompleted">Uncompleted</option>
+    </select>
+  </form>
+  <div class="list-wrapper">
+    <ul class="class-list"></ul>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#abdcff), to(#0396f0));
+  background-image: linear-gradient(90deg, #abdcff 0%, #0396f0 100%);
+  font-family: 'Ranchers', cursive;
+}
+
+.head {
+  width: 100%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  max-width: 500px;
+  margin: 1.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.form input {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  max-width: 70%;
+  overflow: hidden;
+  outline: none;
+}
+
+.form .add-btn {
+  background: #0396f0;
+  position: absolute;
+  top: 0;
+  right: 180px;
+  border: none;
+  height: 41px;
+  width: 41px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.form #options {
+  position: relative;
+  top: 0;
+  right: -10px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.list-wrapper {
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.list-wrapper .class-list {
+  text-align: center;
+  max-width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+
+.list-wrapper .class-list .completed {
+  opacity: 0.8;
+}
+
+.list-wrapper .class-list .item-container {
+  position: relative;
+}
+
+.list-wrapper .class-list li {
+  background-color: antiquewhite;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.list-wrapper .class-list .delete {
+  position: absolute;
+  background-color: #f89406;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.list-wrapper .class-list .checked {
+  position: absolute;
+  background-color: #00b16a;
+  top: 0;
+  right: -40px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.list-wrapper .class-list s {
+  color: #00b16a;
+}
